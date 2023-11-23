@@ -1,0 +1,110 @@
+var3.c
+// Take 1 number input from user and show on screen
+
+#include<stdio.h>
+int main()
+{
+    int num; // Variable declaration
+
+    printf("Please enter a number..");
+    scanf("%d", &num);
+
+    printf("You enter value = %d\n", num);
+}
+
+
+if1.c
+// WAP to find number is non zero or zero
+
+#include<stdio.h>
+int main()
+{
+    int n;
+    printf("Please enter a number: ");
+    scanf("%d", &n);
+
+    if(n != 0)
+    {
+        printf("Number is non zero\n");
+    }
+    else
+    {
+        printf("Number is zero\n");
+    }
+
+    return 0;
+}
+
+if2.c
+// wap to check whether the number is positive or negative
+#include<stdio.h>
+int main()
+{
+    int n;
+    printf("Please enter a number: ");
+    scanf("%d", &n);
+
+    if(n>=0)
+    {
+        printf("Number is positive\n");
+    }
+    else
+    {
+        printf("Number is negative\n");
+    }
+        
+    return 0;
+}
+
+
+if3.c
+// Check greatest of 2 number
+#include<stdio.h>
+int main()
+{
+    int n1, n2;
+    printf("Please enter first number: ");
+    scanf("%d", &n1);
+    printf("Please enter second number: ");
+    scanf("%d", &n2);
+
+    if(n1>n2)
+    {
+        printf("n1 is greater");
+    }
+    else
+    {
+        printf("n2 is greater");
+    }
+
+    return 0;
+}
+
+if4.c
+// Check whether the number is even or odd
+// Check whether the number is divisible by 2 or not
+#include<stdio.h>
+int main()
+{
+    int num;
+    printf("Please enter a number: ");
+    scanf("%d", &num);
+
+    if(num%2 == 0)
+    {
+        printf("Number is even");
+        // printf("Number is divisible by 2");
+    }
+    else
+    {
+        printf("Number is odd");
+        // printf("Number is not divisible by 2");
+    }
+    return 0;
+}
+
+/* HW
+1. Accept marks of 5 subject and display sum and average
+2. Accept age and check eligible for license or not
+3. Check whether the number is divisible by 5 or not
+*/
