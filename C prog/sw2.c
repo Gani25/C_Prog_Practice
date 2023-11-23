@@ -19,7 +19,7 @@ int main()
     case 'I':
     case 'O':
     case 'U':
-        printf("Vowel");
+        printf("Alphabet is Vowel");
         break;
     default:
         printf("Consonant");
